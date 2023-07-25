@@ -1,1 +1,2 @@
-console.log("Hello World");
+A=1
+A==1
