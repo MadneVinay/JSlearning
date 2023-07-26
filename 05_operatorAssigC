@@ -1,0 +1,7 @@
+var tcsInterview = function(gradscore,hscscore,sscscore,candidatename){
+    var result = (gradscore>=70 || hscscore>=80 ||sscscore>=90)? `Congrats ${candidatename} you are eligible for TCS interview`:`${candidatename} Unfortunately you are not eligible for interview`
+    console.log(result);
+}
+tcsInterview(80,86,90,"Vinay")
+tcsInterview(70,65,55,"Raoji")
+tcsInterview(60,79,88,"Baji")
