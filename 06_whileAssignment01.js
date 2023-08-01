@@ -28,13 +28,13 @@ while (i <= 50) {
     console.log(`${i}`);
     i = i+5   
 }
-console.log(`"Program to Print Table of 10"`);
+console.log(`"Program to Print Table of 100"`);
 i = 10
 while (i <= 100) {
     console.log(`${i}`);
     i = i+10   
 }
-console.log(`"Program to Print Table of 10 in reverse"`);
+console.log(`"Program to Print Table of 100 in reverse"`);
 i = 100
 while (i >= 10) {
     console.log(`${i}`);
