@@ -1,4 +1,5 @@
 //step1
+console.log('Step 1 Started......................');
 class Vehicle{
     constructor(model,owner,serviceLife,color,company){
     this.model = model
@@ -27,6 +28,7 @@ for (const vehicles of array) {
 }
 
 //step2
+console.log('Step 2 Started......................');
 class College{
     constructor(collegeName, place,dean,yearsOfSevrve){
     this.collegeName = collegeName
@@ -50,7 +52,7 @@ collegeDarda.display()
 
 let collegepete = new College("G.M.Pete College","Br. Thadi","Ramdas Dhurve",34)
 collegepete.display()
-console.log('Step # Started......................');
+console.log('Step 3 Started......................');
 let traverseobject = function(object){
     for (const key in object) {
         if (object.hasOwnProperty.call(object, key)) {
